@@ -1,0 +1,6 @@
+androguard>=4.1
+httpx>=0.27
+trafilatura>=1.9
+# Optional: transformers model backends (Iteration 3 zero-shot fallback, Iteration 5 fine-tuned model)
+# transformers>=4.40
+# torch>=2.2

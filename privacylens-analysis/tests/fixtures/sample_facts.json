@@ -1,0 +1,24 @@
+{
+  "package": "com.demo.fitness",
+  "version_name": "2.4.1",
+  "permissions": [
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "class_names": [
+    "com.demo.fitness.MainActivity",
+    "com.google.firebase.analytics.FirebaseAnalytics",
+    "com.google.firebase.analytics.connector.AnalyticsConnector",
+    "com.google.android.gms.ads.AdView",
+    "com.facebook.ads.AudienceNetworkAds",
+    "com.facebook.appevents.AppEventsLogger",
+    "com.mixpanel.android.mpmetrics.MixpanelAPI"
+  ],
+  "api_calls": {
+    "android.location.LocationManager.getLastKnownLocation": 3,
+    "android.telephony.TelephonyManager.getImei": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_comment": "SEED ONLY - a few well-known trackers so the package runs offline; ids are illustrative, not Exodus ids. Replace with the full Exodus Privacy export via scripts/update_exodus.py.",
+  "trackers": {
+    "49":  {"id": 49,  "name": "Google Firebase Analytics", "code_signature": "com.google.firebase.analytics|com.google.android.gms.measurement", "categories": ["Analytics"], "website": "https://firebase.google.com"},
+    "312": {"id": 312, "name": "Google AdMob", "code_signature": "com.google.android.gms.ads", "categories": ["Advertisement"], "website": "https://admob.google.com"},
+    "66":  {"id": 66,  "name": "Facebook Ads", "code_signature": "com.facebook.ads|com.facebook.audiencenetwork", "categories": ["Advertisement"], "website": "https://developers.facebook.com"},
+    "67":  {"id": 67,  "name": "Facebook Analytics", "code_signature": "com.facebook.appevents", "categories": ["Analytics"], "website": "https://developers.facebook.com"},
+    "25":  {"id": 25,  "name": "Flurry", "code_signature": "com.flurry", "categories": ["Analytics", "Advertisement"], "website": "https://www.flurry.com"},
+    "12":  {"id": 12,  "name": "AppsFlyer", "code_signature": "com.appsflyer", "categories": ["Analytics", "Identification"], "website": "https://www.appsflyer.com"},
+    "27":  {"id": 27,  "name": "Google CrashLytics", "code_signature": "com.crashlytics|com.google.firebase.crashlytics", "categories": ["Crash reporting"], "website": "https://firebase.google.com"},
+    "100": {"id": 100, "name": "Mixpanel", "code_signature": "com.mixpanel", "categories": ["Analytics", "Profiling"], "website": "https://mixpanel.com"}
+  }
+}
