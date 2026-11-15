@@ -1,0 +1,208 @@
+{
+  "package": "com.demo.fitness",
+  "evidence": [
+    {
+      "source": "static",
+      "raw_type": "permission",
+      "raw_value": "android.permission.ACCESS_FINE_LOCATION",
+      "snippet": "Requested in AndroidManifest.xml",
+      "category": null,
+      "polarity": "declares",
+      "confidence": 1.0,
+      "meta": {},
+      "id": "e01"
+    },
+    {
+      "source": "static",
+      "raw_type": "api_call",
+      "raw_value": "android.location.LocationManager.getLastKnownLocation",
+      "snippet": "Called from 3 place(s)",
+      "category": null,
+      "polarity": "declares",
+      "confidence": 0.9,
+      "meta": {
+        "call_sites": 3
+      },
+      "id": "e02"
+    },
+    {
+      "source": "datasafety",
+      "raw_type": "data_safety_field",
+      "raw_value": "Location > Approximate location",
+      "snippet": "Declared as collected on the Play Store Data Safety label",
+      "category": null,
+      "polarity": "declares",
+      "confidence": null,
+      "meta": {
+        "action": "collected",
+        "ds_category": "Location",
+        "purposes": [
+          "App functionality"
+        ],
+        "optional": false
+      },
+      "id": "e03"
+    },
+    {
+      "source": "policy",
+      "raw_type": "policy_sentence",
+      "raw_value": "We collect your precise location from GPS while the app is open.",
+      "snippet": "We collect your precise location from GPS while the app is open to show nearby gyms.",
+      "category": "location",
+      "polarity": "declares",
+      "confidence": 0.7,
+      "meta": {
+        "url": "https://example.com/privacy"
+      },
+      "id": "e04"
+    },
+    {
+      "source": "static",
+      "raw_type": "permission",
+      "raw_value": "android.permission.CAMERA",
+      "snippet": "Requested in AndroidManifest.xml",
+      "category": null,
+      "polarity": "declares",
+      "confidence": 1.0,
+      "meta": {},
+      "id": "e05"
+    },
+    {
+      "source": "static",
+      "raw_type": "permission",
+      "raw_value": "android.permission.READ_CONTACTS",
+      "snippet": "Requested in AndroidManifest.xml",
+      "category": null,
+      "polarity": "declares",
+      "confidence": 1.0,
+      "meta": {},
+      "id": "e06"
+    },
+    {
+      "source": "policy",
+      "raw_type": "policy_sentence",
+      "raw_value": "We do not collect your contacts or address book information.",
+      "snippet": "We do not collect your contacts or address book information.",
+      "category": "contacts",
+      "polarity": "denies",
+      "confidence": 0.7,
+      "meta": {},
+      "id": "e07"
+    },
+    {
+      "source": "sdk",
+      "raw_type": "sdk",
+      "raw_value": "Google AdMob",
+      "snippet": "Bundled tracker library detected (1 class)",
+      "category": null,
+      "polarity": "declares",
+      "confidence": 0.9,
+      "meta": {
+        "exodus_categories": [
+          "Advertisement"
+        ],
+        "class_count": 1,
+        "sample_class": "com.google.android.gms.ads.AdView"
+      },
+      "id": "e08"
+    },
+    {
+      "source": "datasafety",
+      "raw_type": "data_safety_field",
+      "raw_value": "Device or other IDs > Device or other IDs",
+      "snippet": "Declared as shared on the Play Store Data Safety label",
+      "category": null,
+      "polarity": "declares",
+      "confidence": null,
+      "meta": {
+        "action": "shared",
+        "ds_category": "Device or other IDs",
+        "purposes": [
+          "Advertising or marketing"
+        ],
+        "optional": false
+      },
+      "id": "e09"
+    },
+    {
+      "source": "policy",
+      "raw_type": "policy_sentence",
+      "raw_value": "We share your device identifiers and advertising ID with advertising partners for personalized ads.",
+      "snippet": "We share your device identifiers and advertising ID with advertising partners for personalized ads.",
+      "category": "advertising",
+      "polarity": "declares",
+      "confidence": 0.7,
+      "meta": {},
+      "id": "e10"
+    },
+    {
+      "source": "policy",
+      "raw_type": "policy_sentence",
+      "raw_value": "We share your device identifiers and advertising ID with advertising partners for personalized ads.",
+      "snippet": "We share your device identifiers and advertising ID with advertising partners for personalized ads.",
+      "category": "identifiers",
+      "polarity": "declares",
+      "confidence": 0.7,
+      "meta": {},
+      "id": "e11"
+    },
+    {
+      "source": "sdk",
+      "raw_type": "sdk",
+      "raw_value": "Google Firebase Analytics",
+      "snippet": "Bundled tracker library detected (2 classes)",
+      "category": null,
+      "polarity": "declares",
+      "confidence": 0.9,
+      "meta": {
+        "exodus_categories": [
+          "Analytics"
+        ],
+        "class_count": 2,
+        "sample_class": "com.google.firebase.analytics.FirebaseAnalytics"
+      },
+      "id": "e12"
+    },
+    {
+      "source": "policy",
+      "raw_type": "policy_sentence",
+      "raw_value": "We also use analytics tools to understand how you use the app.",
+      "snippet": "We also use analytics tools to understand how you use the app.",
+      "category": "analytics",
+      "polarity": "declares",
+      "confidence": 0.7,
+      "meta": {},
+      "id": "e13"
+    },
+    {
+      "source": "policy",
+      "raw_type": "policy_sentence",
+      "raw_value": "We never record audio or access your microphone.",
+      "snippet": "We never record audio or access your microphone.",
+      "category": "microphone",
+      "polarity": "denies",
+      "confidence": 0.7,
+      "meta": {},
+      "id": "e14"
+    },
+    {
+      "source": "reviews",
+      "raw_type": "review_sentence",
+      "raw_value": "Why does this app keep reading my text messages??",
+      "snippet": "Why does this app keep reading my text messages??",
+      "category": "phone_sms",
+      "polarity": "declares",
+      "confidence": 0.6,
+      "meta": {
+        "score": 1
+      },
+      "id": "e15"
+    }
+  ],
+  "availability": {
+    "code": true,
+    "datasafety": true,
+    "policy": true,
+    "reviews": true
+  }
+}
